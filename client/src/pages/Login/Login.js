@@ -41,10 +41,10 @@ const Login = ({ auth, history, loginUserWithEmail }) => {
           <a className="fb btn" href={FACEBOOK_AUTH_LINK}>
             <i className="fa fa-facebook fa-fw" /> Login with Facebook
           </a>
-          <a className="google btn" href={GOOGLE_AUTH_LINK}>
+          {/* <a className="google btn" href={GOOGLE_AUTH_LINK}>
             <i className="fa fa-google fa-fw" />
             Login with Google
-          </a>
+          </a> */}
           <h2>Login with email address</h2>
           <p className="logins">Admin: email0@email.com 123456789</p>
           <p className="logins">User: email1@email.com 123456789</p>

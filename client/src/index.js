@@ -8,6 +8,7 @@ import thunk from 'redux-thunk';
 import App from './App';
 import './index.css';
 import rootReducer from './store/reducers';
+import * as serviceWorker from './serviceWorker';
 
 const initialState = {};
 
@@ -22,6 +23,7 @@ const store = createStore(
   ),
 );
 
+serviceWorker.register();
 ReactDOM.render(
   <Provider store={store}>
     <Router>
@@ -32,3 +34,4 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root'),
 );
+

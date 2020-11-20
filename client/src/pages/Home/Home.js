@@ -31,11 +31,11 @@ const Home = ({ auth, reseedDatabase }) => {
   return (
     <Layout>
       <div className="home-page">
-        <h1>Home page</h1>
+        <h1>Welcome to our Fitnes maraphone!</h1>
         {!auth.isAuthenticated ? (
           <div>
             <p>
-              Welcome guest!{' '}
+              You {' '}
               <Link className="bold" to="/login">
                 Log in
               </Link>{' '}
@@ -44,7 +44,7 @@ const Home = ({ auth, reseedDatabase }) => {
                 Register
               </Link>
             </p>
-            <ReseedMessage handleReseed={handleReseed} />
+        
           </div>
         ) : (
           <>
@@ -53,9 +53,10 @@ const Home = ({ auth, reseedDatabase }) => {
             </p>
             <ReseedMessage handleReseed={handleReseed} />
             <MessageForm />
+            <MessageList />
           </>
         )}
-        <MessageList />
+     
       </div>
     </Layout>
   );
