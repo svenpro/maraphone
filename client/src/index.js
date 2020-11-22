@@ -23,7 +23,7 @@ const store = createStore(
   ),
 );
 
-serviceWorker.register();
+// serviceWorker.register();
 ReactDOM.render(
   <Provider store={store}>
     <Router>
