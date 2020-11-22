@@ -12,6 +12,7 @@ import * as serviceWorker from './serviceWorker';
 
 const initialState = {};
 
+
 const store = createStore(
   rootReducer,
   initialState,
