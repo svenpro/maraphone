@@ -1,5 +1,5 @@
 {
-  "name": "mern-boilerplate",
+  "name": "maraphone-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,13 +10,13 @@
     "formik": "^2.1.4",
     "js-cookie": "^2.2.1",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "moment": "^2.24.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^4.0.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "yup": "^0.28.3"

@@ -44,7 +44,7 @@ const Home = ({ auth, reseedDatabase }) => {
                 Register
               </Link>
             </p>
-        
+            <MessageList />
           </div>
         ) : (
           <>
